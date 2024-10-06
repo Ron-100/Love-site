@@ -1,0 +1,518 @@
+@font-face {
+    font-family: lovefont;
+    src: url(./lov/Outfit-Thin.ttf);
+}
+@font-face {
+    font-family: lovefont1;
+    src: url(./lov/Outfit-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: lovefont2;
+    src: url(./lov/Outfit-Light.ttf);
+}
+
+@font-face {
+    font-family: lovefont3;
+    src: url(./lov/Outfit-Regular.ttf);
+}
+@font-face {
+    font-family: lovefont4;
+    src: url(./lov/Outfit-Medium.ttf);
+}
+@font-face {
+    font-family: lovefont5;
+    src: url(./lov/Outfit-SemiBold.ttf);
+}
+@font-face {
+    font-family: lovefont6;
+    src: url(./lov/Outfit-Bold.ttf);
+}
+@font-face {
+    font-family: lovefont7;
+    src: url(./lov/Outfit-ExtraBold.ttf);
+}
+@font-face {
+    font-family: lovefont8;
+    src: url(./lov/Outfit-Black.ttf);
+}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bigb{
+    height: 100vh;
+    max-width: 1707px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    /* background-color: rgb(1, 7, 26); */
+    background-color: white;
+    animation-name: colorchange;
+    animation-duration: 2s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes colorchange {
+    0%{
+        opacity: 0;
+        background-color: white;
+    }
+    100%{
+        opacity: 100%;
+        background-color: rgb(1, 7, 26);
+    }
+}
+
+
+
+
+
+
+#line{
+    width: 1900px;
+    height: 8px;
+    border-radius: 0px 40px 20px 0px ;
+    background-color: #E11078;
+    position: relative;
+    box-shadow: rgb(255, 255, 255) -1px 0px 28px -2px;
+    animation-name: lineslide;
+    animation-duration: 4s;
+    animation-delay: 0;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+}
+
+@keyframes lineslide {
+    0%{
+        left: -2000px;
+        opacity: 100%;
+    }
+    50%{
+        opacity: 100%;
+    }
+    95%{
+        opacity: 100%;
+    }
+    100%{
+        left: 0px;
+        opacity: 0%;
+    }
+}
+
+
+
+
+
+.onee{
+    color: white;
+    font-family: lovefont4;
+    position: absolute;
+    left: 6em;
+    top: 300px;
+    font-size: 100px;
+    text-shadow: #E11078 0px 8px 24px;
+    animation-name: mylove;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 6s;
+    opacity: 0%;
+}
+
+@keyframes mylove {
+    0%{
+        opacity: 0%;
+    }
+    50%{
+        opacity: 100%;
+    }
+    100%{
+        opacity: 0%;
+    }
+}
+
+.twoo{
+    color: white;
+    font-family: lovefont4;
+    position: absolute;
+    left: 300px;
+    top: 300px;
+    font-size: 90px;
+    text-shadow: #E11078 0px 8px 24px;
+    animation-name: mylove;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 10s;
+    opacity: 0%;
+}
+
+@keyframes mylove {
+    0%{
+        opacity: 0%;
+    }
+    50%{
+        opacity: 100%;
+    }
+    100%{
+        opacity: 0%;
+    }
+}
+.threee{
+    color: white;
+    font-family: lovefont4;
+    position: absolute;
+    left: 7em;
+    top: 300px;
+    font-size: 100px;
+    text-shadow: #E11078 0px 8px 24px;
+    animation-name: mylove;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 13.9s;
+    opacity: 0%;
+}
+
+@keyframes mylove {
+    0%{
+        opacity: 0%;
+    }
+    50%{
+        opacity: 100%;
+    }
+    100%{
+        opacity: 0%;
+    }
+}
+.fourr{
+    color: white;
+    font-family: lovefont4;
+    position: absolute;
+    left: 4em;
+    top: 300px;
+    font-size: 100px;
+    text-shadow: #E11078 0px 8px 24px;
+    animation-name: mylove;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 17s;
+    opacity: 0%;
+}
+
+@keyframes mylove {
+    0%{
+        opacity: 0%;
+    }
+    50%{
+        opacity: 100%;
+    }
+    100%{
+        opacity: 0%;
+    }
+}
+
+
+
+
+
+
+
+#one{
+    color: white;
+    font-family: lovefont4;
+    position: absolute;
+    left: 6em;
+    top: 170px;
+    font-size: 40px;
+    text-shadow: #E11078 0px 8px 24px;
+    animation-name: lovetext1;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-delay: 22s;
+    opacity: 0%;
+}
+
+@keyframes lovetext1 {
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+
+#two{
+    color: white;
+    font-family: lovefont4;
+    position: absolute;
+    left: 6.2em;
+    top: 225px;
+    font-size: 40px;
+    text-shadow: #E11078 0px 8px 24px;
+    animation-name: lovetext1;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 28s;
+    opacity: 0%;
+}
+
+@keyframes lovetext1 {
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+#three{
+    color: white;
+    font-family: lovefont4;
+    position: absolute;
+    left: 3.3em;
+    top: 285px;
+    font-size: 35px;
+    text-shadow: #E11078 0px 8px 24px;
+    animation-name: lovetext1;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 34s;
+    opacity: 0%;
+}
+
+@keyframes lovetext1 {
+    0%{
+        opacity: 0%;
+    }
+    
+    100%{
+        opacity: 100%;
+    }
+}
+
+#four{
+    color: white;
+    font-family: lovefont4;
+    position: absolute;
+    left: 3.2em;
+    top: 340px;
+    font-size: 34px;
+    text-shadow: #E11078 0px 8px 24px;
+    animation-name: lovetext1;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 40s;
+    opacity: 0%;
+}
+
+@keyframes lovetext1 {
+    0%{
+        opacity: 0%;
+    }
+
+    100%{
+        opacity:100%;
+    }
+}
+
+#five{
+    color: white;
+    font-family: lovefont4;
+    position: absolute;
+    left: 2em;
+    top: 395px;
+    font-size: 35px;
+    text-shadow: #E11078 0px 8px 24px;
+    animation-name: lovetext1;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 46s;
+    opacity: 0%;
+}
+
+@keyframes lovetext1 {
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+#six{
+    color: white;
+    font-family: lovefont4;
+    position: absolute;
+    left: 11.5em;
+    top: 446px;
+    font-size: 40px;
+    text-shadow: #E11078 0px 8px 24px;
+    animation-name: lovetext1;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 52s;
+    opacity: 0%;
+}
+
+@keyframes lovetext1 {
+    0%{
+        opacity: 0%;
+    }
+   
+    100%{
+        opacity: 100%;
+    }
+}
+
+
+#seven{
+    color: white;
+    font-family: lovefont4;
+    position: absolute;
+    left: 3.5em;
+    top: 504px;
+    font-size: 40px;
+    text-shadow: #E11078 0px 8px 24px;
+    animation-name: lovetext1;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 58s;
+    opacity: 0%;
+}
+
+@keyframes lovetext1 {
+    0%{
+        opacity: 0%;
+    }
+   
+    100%{
+        opacity: 100%;
+    }
+}
+
+#eight{
+    color: white;
+    font-family: lovefont4;
+    position: absolute;
+    left: 2.4em;
+    top: 560px;
+    font-size: 40px;
+    text-shadow: #E11078 0px 8px 24px;
+    animation-name: lovetext1;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 64s;
+    opacity: 0%;
+}
+
+@keyframes lovetext1 {
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+
+
+#nine{
+    color: white;
+    font-family: lovefont4;
+    position: absolute;
+    left:1.7em;
+    top: 610px;
+    font-size: 100px;
+    text-shadow: #E11078 0px 8px 24px;
+    animation-name: lovetext1;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 70s;
+    opacity: 0%;
+}
+
+@keyframes lovetext1 {
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+#ten{
+    color: white;
+    font-family: lovefont4;
+    position: absolute;
+    left: 4.2em;
+    top: 20px;
+    font-size: 100px;
+    text-shadow: #E11078 0px 8px 24px;
+    animation-name: lovetext1;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 70s;
+    opacity: 0%;
+}
+
+@keyframes lovetext1 {
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
